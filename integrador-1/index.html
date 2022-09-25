@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Practica Codo a Codo</title>
+</head>
+
+<body>
+  <header class="header">
+
+    <nav class="nav">
+      <div class="nav__container">
+        <div class="nav__logo">
+          <figure class="nav__figure">
+            <img src="./images/codoacodo.png" alt="logo-codo-a-codo" class="nav__img">
+          </figure>
+          <h1 class="nav__title">Conf Bs As</h1>
+        </div>
+
+        <label for="menu" class="nav__label">
+          <img src="./images/menu.svg" alt="icon-menu" id="menu-icon" class="nav__menu-icon">
+        </label>
+        <input type="checkbox" class="nav__input" id="menu">
+  
+        <ul class="nav__menu">
+          <li class="nav__item"><a href="#" class="nav__cta active">La conferencia</a></li>
+          <li class="nav__item"><a href="#" class="nav__cta">Los oradores</a></li>
+          <li class="nav__item"><a href="#" class="nav__cta">El lugar y la fecha</a></li>
+          <li class="nav__item"><a href="#" class="nav__cta">Conviertete en orador</a></li>
+          <li class="nav__item nav__item"><a href="#" class="nav__cta nav__cta--green">Comprar tickets</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <section class="header-section">
+      <div class="header__information">
+        
+        <img src="./images/ba1.jpg" alt="bg-principal" class="header__img">
+        <div class="header__texts">
+          <h1 class="header__title">Conf Bs As</h1>
+          <p class="header__paragraph">Bs As llega por primera vez a Argentina. Un envento para compartir con nuestra comunidad el conocimiento y experiencia de los expertos que están creando el futuro de Internet. Ven a conocer a miembros del evento, a otros estudiantes de Codo a Codo y los oradores de primer nivel que tenemos para ti. Te esperamos!</p>
+          <a href="#" class="header__cta">Quiero ser orador</a>
+          <a href="#" class="header__cta header__cta--green">Comprar tickets</a>
+        </div>
+      </div>
+    </section>
+  </header>
+
+  <main class="main">
+    <section class="section-speakers">
+
+      <div class="titles">
+        <h4 class="subtitle">Conoce a los</h4>
+        <h1 class="title">Oradores</h1>
+      </div>
+
+      <div class="speakers">
+        <div class="speaker">
+          <img src="./images/steve.jpg" alt="steve" class="speaker__img">
+          <div class="speaker__description">
+            <div class="speaker__experiences">
+              <div class="speaker__experience"><b>JavaScript</b></div>
+              <div class="speaker__experience speaker__experience--react"><b>React</b></div>
+            </div>
+            <h1 class="speaker__name">Steve Jobs</h1>
+            <p class="speaker__paragraph">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi eum excepturi necessitatibus quidem reiciendis, odio cumque alias eaque tempore ab accusantium corrupti, ullam tenetur commodi consequuntur! Recusandae voluptatibus ipsum commodi!</p>
+          </div>
+        </div>
+
+        <div class="speaker">
+          <img src="./images/bill.jpg" alt="bill" class="speaker__img">
+          <div class="speaker__description">
+            <div class="speaker__experiences">
+              <div class="speaker__experience"><b>JavaScript</b></div>
+              <div class="speaker__experience speaker__experience--react"><b>React</b></div>
+            </div>
+            <h1 class="speaker__name">Bill Gates</h1>
+            <p class="speaker__paragraph">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi eum excepturi necessitatibus quidem reiciendis, odio cumque alias eaque tempore ab accusantium corrupti, ullam tenetur commodi consequuntur! Recusandae voluptatibus ipsum commodi!</p>
+          </div>
+        </div>
+
+        <div class="speaker">
+          <img src="./images/ada.jpeg" alt="steve" class="speaker__img">
+          <div class="speaker__description">
+            <div class="speaker__experiences">
+              <div class="speaker__experience  speaker__experience--negocios"><b>Negocios</b></div>
+              <div class="speaker__experience  speaker__experience--startups"><b>Startups</b></div>
+            </div>
+            <h1 class="speaker__name">Ada Lovelace</h1>
+            <p class="speaker__paragraph">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi eum excepturi necessitatibus quidem reiciendis, odio cumque alias eaque tempore ab accusantium corrupti, ullam tenetur commodi consequuntur! Recusandae voluptatibus ipsum commodi!</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <article class="article">
+      <div class="article__container">
+        <img src="./images/honolulu.jpg" alt="article-img" class="article__img">
+        <div class="article__information">
+          <h1 class="article__title">Bs As - Octubre</h1>
+          <p class="article__paragraph">Buenos Aires es la provincia y localidad más grande del estado de Argentina, en los Estados Unidos. Honolulu es la más sureña de entre las principales ciudades estadounidenses. Aunque el nombre de Honolulu se refiere al área urbana en la costa sureste de la isla Oahu, la ciudad y el condado de Honolulu han formado una ciudad-condado consolidada que cubre toda la ciudad (aproximadamente 600 km2 de superficie).</p>
+          <a href="#" class="article__cta">Conocé mas</a>
+        </div>
+      </div>
+    </article>
+
+    <section class="section-form">
+      <div class="form__container">
+        <div class="titles">
+          <h4 class="subtitle">Conviértete en un</h4>
+          <h1 class="title">Orador</h1>
+          <p class="form__paragraph">Anotáte como orador para dar una charla ignite. Cuéntanos de qué quieres hablar!</p>
+        </div>
+
+        <form class="form">
+          <div class="form__box-inputs">
+            <div class="form__box-input">
+              <input type="text" class="form__input" placeholder="Nombre" required>
+            </div>
+            <div class="form__box-input">
+              <input type="text" class="form__input" placeholder="Apellido" required>
+            </div>
+          </div>
+          <textarea class="form__textarea" id="" cols="15" rows="7" placeholder="Sobre qué queres hablar?" required></textarea>
+          <p class="form__paragraph">Recuerda incluir un título para tu charla</p>
+          <div class="form__box-submit">
+            <input class="form__submit"type="submit" value="Enviar">
+          </div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer__container">
+      <ul class="footer__menu">
+        <li class="footer__item"><a href="#" class="footer__cta">Preguntas frecuentes</a></li>
+        <li class="footer__item"><a href="#" class="footer__cta">Contáctanos</a></li>
+        <li class="footer__item"><a href="#" class="footer__cta">Prensa</a></li>
+        <li class="footer__item"><a href="#" class="footer__cta">Conferencias</a></li>
+        <li class="footer__item"><a href="#" class="footer__cta">Términos y condiciones</a></li>
+        <li class="footer__item"><a href="#" class="footer__cta">Privacidad</a></li>
+        <li class="footer__item"><a href="#" class="footer__cta">Estudiantes</a></li>
+      </ul>
+    </div>
+  </footer>
+
+</body>
+</html>
